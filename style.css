@@ -1,0 +1,80 @@
+body{
+    background: #1d2630;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+
+}
+.container{
+    background: #30353b;
+    border-radius: 15px;
+    box-shadow: saddlebrown;
+
+}
+
+.container .result{
+    height: 45px;
+    text-align: right;
+    line-height: 45px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 15px 8px;
+    color: #9ca3af;
+    border-bottom: 1px solid #9ca3af;
+    
+
+}
+
+.container .result1{
+    font-size: 35px;
+    color: #fff;
+}
+
+.container .buttons{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+
+
+.container button{
+    margin: 2px 2px;
+    font-size: 25px;
+    text-align: center;
+    height:60px;
+    width: 70px;
+    border:none;
+    background: #414c5d;
+    color: white;
+    cursor:pointer;
+
+}
+
+
+.container button:hover{
+
+
+    background: #495464;
+    transition: 0.2s ease-in-out;
+}
+
+.container .buttons .C{
+    color: #f64573;
+    font-weight: bold;
+    font-size:30px;
+
+}
+
+.container .calc{
+    color:#f64573;
+    font-weight: bold;
+}
+
+.container .calc:hover{
+    background:#dfa472;
+}
